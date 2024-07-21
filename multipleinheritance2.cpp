@@ -46,6 +46,6 @@ int main()
 C objc1;
 
 cout<<objc1.a<<endl;
-cout<<objc1.A::a<<endl;
+
 
 }
