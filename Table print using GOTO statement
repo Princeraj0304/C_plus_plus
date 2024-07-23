@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   int i,m,temp;
+   cout<<"Enter the value of n : ";
+   cin>> m;
+i=1;
+   aa:
+   temp=m*i;
+   cout<<m<< "*" << i <<" = "<<temp<<endl;
+   i++;
+   if(i<=10)
+   {
+       goto aa;
+   }
+    else 
+    goto bb;
+
+    bb:
+cout<<" ";
+}
