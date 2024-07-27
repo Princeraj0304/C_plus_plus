@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+class base
+{
+public:
+base(){
+    cout<<"Base class is called "<<endl;}
+    void print(){
+        cout<<"Base class code"<<endl;
+    }
+
+};
+class derived : public base
+
+{
+    public:
+    derived()
+    {
+        cout<<"derived called"<<endl;
+    }
+        void print(){
+            cout<<"derived code "<<endl;
+        }
+    
+};
+
+int main()
+{
+derived objd1;
+objd1.print();
+}
