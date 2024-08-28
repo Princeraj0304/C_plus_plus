@@ -29,6 +29,8 @@ switch(Day){
      case 7 :
     cout<<"Saturday ";
     break;
+    default:
+    cout<<"There are only 7 days in a week ";
 }
 
     return 0;
